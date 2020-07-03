@@ -16,6 +16,8 @@ header  nav .nav-right-section{
 	display: flex;
 	justify-content:flex-end;
 	align-items:center;
+
+	padding-right:20px;
 }
 
 a{
@@ -24,8 +26,46 @@ a{
 
 header nav .nav-right-section li{
 	list-style: none;
+
+	padding-right: 10px;
+
 }
 
 header nav .nav-right-section li a{
-	margin:0 10px;
+	margin:0;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 13px;
+
 }
+
+nav .nav-right-section .apps-icon{
+	background-image: url("../images/apps-icon.png");
+	background-repeat:no-repeat;
+	background-size: contain;
+	background-position: center;
+
+	width:50px;
+	height: 26px;
+
+	padding:0;
+	margin-right: 10px;
+}
+
+nav .nav-right-section button{
+
+	color:white;
+	font-weight:600;
+	background-color:#4684ED;
+	border: 1px solid transparent;
+	border-radius:2px;
+	height:30px;
+
+	padding: 3px 10px;
+
+}
+
+
+
+
+
+
