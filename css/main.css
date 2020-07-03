@@ -1,0 +1,31 @@
+body{
+	margin:0px;
+}
+
+header{
+	width:inherit;
+	height:60px;
+}
+
+/* Tamaño del Header */
+
+header  nav .nav-right-section{
+
+	height: 40px;
+
+	display: flex;
+	justify-content:flex-end;
+	align-items:center;
+}
+
+a{
+	text-decoration: none;
+}
+
+header nav .nav-right-section li{
+	list-style: none;
+}
+
+header nav .nav-right-section li a{
+	margin:0 10px;
+}
