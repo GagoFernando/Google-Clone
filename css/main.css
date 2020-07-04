@@ -64,6 +64,99 @@ nav .nav-right-section button{
 
 }
 
+/* Header */
+
+
+/* Section Main */
+
+.main{
+
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+
+.main-logo{
+	height: 200px;
+}
+
+.main-logo .main-logo-container img{
+	width: 350px;
+}
+
+.main-searcher{
+
+	width: 500px;
+
+}
+
+
+.main-searcher .main-searcher-container{
+
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	border:1px solid #dfe1e5;
+	border-radius: 100px;
+
+
+	height: 40px;
+
+
+	padding: 0 10px;
+}
+
+.main-searcher-container:hover{
+	box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+
+.main-searcher .main-searcher-container input{
+	height: 30px;
+	width: -webkit-fill-available;
+
+
+	border: none;
+	outline: none;
+}
+
+
+.main-searcher .main-searcher-container .google-search{
+	background-image:url("../images/google-lens.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	height: 24px;
+
+}
+
+.main-searcher .main-searcher-container a img{
+	
+	object-fit:cover;
+}
+
+	
+.google-search, .google-micro img{
+
+	width:30px;
+	height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
