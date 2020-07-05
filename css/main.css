@@ -36,6 +36,11 @@ header nav .nav-right-section li a{
 	font-family: Arial,Helvetica,sans-serif;
 	font-size: 13px;
 
+
+}
+
+header nav .nav-right-section li a:hover{
+	text-decoration: underline;
 }
 
 nav .nav-right-section .apps-icon{
@@ -49,6 +54,7 @@ nav .nav-right-section .apps-icon{
 
 	padding:0;
 	margin-right: 10px;
+
 }
 
 nav .nav-right-section button{
@@ -62,7 +68,12 @@ nav .nav-right-section button{
 
 	padding: 3px 10px;
 
+
 }
+
+.nav-right-section a,.nav-right-section button, .apps-icon{
+	cursor:pointer;
+} 
 
 /* Header */
 
