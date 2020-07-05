@@ -88,6 +88,7 @@ nav .nav-right-section button{
 .main-searcher{
 
 	width: 500px;
+	height: 35px;
 
 }
 
@@ -100,8 +101,6 @@ nav .nav-right-section button{
 	border:1px solid #dfe1e5;
 	border-radius: 100px;
 
-
-	height: 40px;
 
 
 	padding: 0 10px;
@@ -120,6 +119,9 @@ nav .nav-right-section button{
 
 	border: none;
 	outline: none;
+
+	padding-left:10px;
+	padding-bottom: 2px;
 }
 
 
@@ -128,8 +130,8 @@ nav .nav-right-section button{
 	background-size: contain;
 	background-repeat: no-repeat;
 
-	height: 24px;
-
+	width: 20px;
+	height: 18px;
 }
 
 .main-searcher .main-searcher-container a img{
@@ -181,7 +183,6 @@ footer{
 	background: #f2f2f2;
 	height: 35px;
 	bottom: 0;
-	position: absolute;
 	width: 100%;
 
 	border-top: 1px solid #e4e4e4;
